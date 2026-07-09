@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# Model cache / outputs
+output/
+models/
+*.wav
+
+# Media test inputs
+*.mp4
+*.mov
+*.mkv
+*.webm
+!examples/**
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
