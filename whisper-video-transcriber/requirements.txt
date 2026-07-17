@@ -1,0 +1,8 @@
+# Core transcription engine (GPU-accelerated via CTranslate2).
+faster-whisper>=1.0.0
+
+# Notes on GPU:
+#   faster-whisper runs on CUDA automatically when a GPU is available.
+#   On Linux with CUDA 12 you typically also need the cuDNN/cuBLAS runtime:
+#     pip install nvidia-cublas-cu12 nvidia-cudnn-cu12
+#   ffmpeg (system package) is required for audio extraction and subtitle burn-in.
